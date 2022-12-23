@@ -9,3 +9,4 @@ cli.add_argument('--prediction_params', action='append',  dest='prediction_param
 parse = cli.parse_args()
 print(prediction(parse.prediction_model[0], parse.prediction_params))
 logging.info("Prediction from terminal")
+
