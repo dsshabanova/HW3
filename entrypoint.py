@@ -18,3 +18,4 @@ model = load_model(settings.MODEL.dt_conf)
 logging.info(f'prediction: {model.predict(X_test)}')
 
 
+
